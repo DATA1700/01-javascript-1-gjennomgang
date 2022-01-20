@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript 1 - Kodegjennomgang</title>
+    <script type="application/javascript" src="index.js"></script>
+</head>
+<body>
+<h1>JavaScript 1 - Kodegjennomgang</h1>
+<section>
+    <h2>Oppgave 1</h2>
+    <button onclick="helloWorld();">Click me!</button>
+</section>
+
+<section>
+    <h2>Oppgave 2</h2>
+    <button onclick="helloAlert()">Click me!</button>
+</section>
+
+<section>
+    <h2>Oppgave 3</h2>
+    <label for="opp3">Write your text: </label>
+    <input id="opp3" type="text" onchange="toNewPage(this.value)">
+</section>
+
+<section>
+    <h2>Oppgave 4</h2>
+    <label for="opp4">Write your text: </label>
+    <input id="opp4" type="text" onchange="toAlert(this.value)">
+<!--
+    Can also be simplified as:
+    <input id="opp4" type="text" onchange="alert(this.value)">
+-->
+</section>
+
+<section>
+    <h2>Oppgave 5</h2>
+    <label for="opp5">Write your text: </label>
+    <input id="opp5" type="text" onchange="toConsole(this.value)">
+</section>
+
+<section>
+    <h2>Oppgave 6</h2>
+    <label for="opp6">Write your text: </label>
+    <input id="opp6" type="text" onchange="toNewPageColour(this.value)">
+</section>
+
+<section>
+    <h2>Oppgave 7</h2>
+    <label for="opp7">Write your text: </label>
+    <input id="opp7" type="text" onchange="toUppercaseAlert(this.value)">
+</section>
+
+<section>
+    <h2>Oppgave 8</h2>
+    <button onclick="showOne()">Click for 1</button>
+</section>
+
+<section>
+    <h2>Oppgave 9</h2>
+    <button onclick="showNrOfClicks()">Click me!</button>
+</section>
+
+<section>
+    <h2>Oppgave 10</h2>
+    <button onclick="nrOfClicksWithString()">Click me!</button>
+</section>
+
+</body>
+</html>
